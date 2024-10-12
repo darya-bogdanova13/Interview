@@ -37,7 +37,6 @@ public class User {
                         .limit(5)
                 .collect(Collectors.toList());
     }
-
     public static void main(String [] args)
     {
         List<User>users = List.of(
